@@ -1,0 +1,129 @@
+@import url(./reset.css);
+
+/* 常用設定 */
+body {
+    line-height: 1.5;
+    font-family: "Castoro", serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.d-inblock {
+    display: inline-block;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.word-128 {
+    font-size: 128px;
+}
+
+.word-32 {
+    font-size: 32px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.word-spacing-15 {
+    letter-spacing: 15px;
+}
+
+.link-img:hover {
+    transform: scale(1.2);
+}
+
+.link-word:hover {
+    color: #AE0000;
+}
+
+
+/* header */
+
+.header {
+    padding-top: 160px;
+}
+
+.header-img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* main */
+
+.main-self-bg {
+    background-color: #EFEFEF;
+}
+
+.main-self-introdution {
+    margin-left: auto;
+    width: 50%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.main-item-outer {
+    padding-top: 80px;
+    padding-bottom: 152px;
+}
+
+.main-item {
+    width: 50%;
+}
+
+.main-item-list + .main-item-list {
+    margin-top: 40px;
+}
+
+.main-item-title {
+    color: #AE0000;
+    border-bottom: 3px solid #AE0000;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.main-item-subtitle {
+    color: #949494;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.main-item-content {
+    font-size: 24px;
+}
+
+/* footer */
+.footer {
+    background-color: #000000;
+    padding-top: 72px;
+    padding-bottom: 56px;
+}
+
+.footer-img+.footer-img {
+    margin-left: 40px;
+}
